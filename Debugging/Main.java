@@ -1,9 +1,9 @@
 /*
 Error filled file created by
 Kimg@techtrepacademy.com
-for my java class to learn troubleshooting on
+modified by Dallin Lyman
 */
-public class Main {
+public class Main {//program that counts up to 10 twice, and then tells if i is equal to 0
     public static void main(String[] args) {//error 1, no main class
         int i = 0;//error 6
     
@@ -12,7 +12,7 @@ public class Main {
     for (i=0;i<10;i++){
         System.out.println("the number i is "+i);//error 2, println
     }
-//error, i>10 will never start
+//error 8, i>10 will never start (I found this later)
     for (i=0;i<10;i++){//errors 3,4,5 for is not capitalized, int is not capitalized, and it's a semicolon
         System.out.println("the new number i is "+i);
     }
